@@ -5,7 +5,7 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: Harness Sample K8s Cloud Provider
-  namespace: default
+  namespace: shekar-cdharness
   releaseName: release-${infra.kubernetes.infraId}
 scopedServices:
 - cdharness-poc-k8s-nginx
