@@ -1,7 +1,3 @@
 harnessApiVersion: '1.0'
 type: APPLICATION_MANIFEST
-gitFileConfig:
-  branch: master
-  connectorName: Admin_GitHub
-  useBranch: true
-storeType: Remote
+storeType: Local
